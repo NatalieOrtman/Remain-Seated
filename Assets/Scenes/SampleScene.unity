@@ -1284,12 +1284,12 @@ GameObject:
   - component: {fileID: 1377231497}
   - component: {fileID: 1377231496}
   m_Layer: 5
-  m_Name: Player_Canvas
+  m_Name: Interaction Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1377231496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1339,9 +1339,9 @@ Canvas:
   m_GameObject: {fileID: 1377231495}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 330585545}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 1
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1516,6 +1516,7 @@ MonoBehaviour:
   maxHorizontal: 60
   mainCamera: {fileID: 330585545}
   highlightMaterial: {fileID: 2100000, guid: 4d88a315ad53e1247bc70203ff103796, type: 2}
+  interactionCanvas: {fileID: 1377231498}
 --- !u!1 &1840414809
 GameObject:
   m_ObjectHideFlags: 0
